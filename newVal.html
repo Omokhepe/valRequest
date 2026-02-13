@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--    <meta charset="UTF-8">-->
+    <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Be My Valentine 💖</title>
+    <link rel="stylesheet" href="newVal.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+<!--<div class="hearts-bg"></div>-->
+<div id="countdownScreen" class="countdown-screen">
+    <h1 id="countNumber">3</h1>
+    <p>Wait for it… 💕</p>
+</div>
+
+<div class="container" id="main">
+    <h1>Hey Elijah… 💌</h1>
+    <p>I have something important to ask…</p>
+
+
+    <div class="gif-container">
+        <img id="cat-gif" src="https://media.tenor.com/EBV7OT7ACfwAAAAj/u-u-qua-qua-u-quaa.gif" alt="cute character">
+    </div>
+
+    <h2>Will you be my Valentine? 💖</h2>
+
+    <div class="buttons">
+        <button id="yesBtn" class="buttons-text">Yes 😍</button>
+        <button id="noBtn" class="buttons-text">No 🙄</button>
+    </div>
+</div>
+
+<div class="final" id="finalMessage">
+    <h1 id="yesText">You said YES!!! 💕</h1>
+    <p>I knew you had great taste 😏</p>
+    <p>This would have been way more fun in person but efforts add up I guess.... Lets make memories 💑</p>
+
+    <div id="affirmations" class="affirmations" style="display:none;">
+        <h2>Sweet Affirmations 💖</h2>
+        <ul>
+            <li>🌸 You make my heart skip a beat</li>
+<!--            <li>💫 Every moment with you feels magical</li>-->
+<!--            <li>🥰 I love how you make me smile</li>-->
+            <li>💌 You are my favorite thought</li>
+            <li>💖 Being with you makes everything brighter</li>
+        </ul>
+    </div>
+
+
+
+    <div class="gif-container">
+        <img id="cat-gif1" src="https://media.tenor.com/eNHbizSfVb0AAAAj/lovemode-cute.gif" alt="celebrating">
+    </div>
+
+</div>
+
+<audio id="bgMusic" autoplay loop playsinlin>
+    <source src="music/beabadoobee - Glue Song (Lyrics).mp3" type="audio/mpeg">
+</audio>
+
+<button id="music-toggle" onclick="toggleMusic()" title="Toggle music">🔊</button>
+
+
+<script src="newVal.js"></script>
+
+</body>
+</html>
